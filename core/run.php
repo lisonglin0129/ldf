@@ -32,7 +32,7 @@ try{
     });
  
     /**
-     * 加载用户控制器，模型
+     * 加载用户路由规则，及控制器关联
      */
     $app->load(function(){
         return new RouteHandle();
